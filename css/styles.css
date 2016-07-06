@@ -129,6 +129,13 @@ body {
   .navbar-brand p img { /* Star-K */
     height: 20px;	/* Give height to stay in the header */
   }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;  /* Make it 20% bigger */
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;    /* Keep the size via overriding (Make it smaller) */
+    margin-right: 5px;
+  }
   /* End Header */
 
 }
