@@ -18,3 +18,36 @@ body {
     height: 150px;
     margin: 10px 15px 10px 0;
 }
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+/* title */
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #557c3e; /* green */
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75; /* Decrease line height */
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+/* Kosher cert */
+.navbar-brand p { 
+  color: #000; /* black */
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px; /* To separate from the title */
+}
+
+/* Star-K image */
+.navbar-brand p span { 
+  vertical-align: middle;
+}
