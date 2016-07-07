@@ -114,6 +114,12 @@ body {
     margin: 5px 5px 5px 0;
   }
   /* End Header */
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_992.jpg') no-repeat;
+    height: 558px;
+  }
+  /* End Home Page */
 }
 
 /********** Small devices only **********/
