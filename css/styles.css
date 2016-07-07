@@ -109,6 +109,10 @@ body {
   background: url('../images/menu-tile.jpg') no-repeat;
   background-position: center;
 }
+#specials-tile {
+  background: url('../images/specials-tile.jpg') no-repeat;
+  background-position: center;
+}
 /* END HOME PAGE */
 
 /********** Large devices only **********/
