@@ -235,6 +235,19 @@ body {
   }
   /* End Header */
 
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 90%; /* line */
+  }
+  /* End Footer */
+
   /* Home Page */
   .container .jumbotron {
     margin-top: 30px;
